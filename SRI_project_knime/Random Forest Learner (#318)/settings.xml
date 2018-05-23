@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="targetColumn" type="xstring" value="Document class"/>
+<entry key="seed" type="xstring" value="1526420282085"/>
+<entry key="maxLevels" type="xint" value="-1"/>
+<entry key="minNodeSize" type="xint" value="-1"/>
+<entry key="minChildSize" type="xint" value="-1"/>
+<entry key="dataFraction" type="xdouble" value="1.0"/>
+<entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
+<entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
+<entry key="columnSamplingMode" type="xstring" value="SquareRoot"/>
+<entry key="columnFractionPerTree" type="xdouble" value="1.0"/>
+<entry key="columnAbsolutePerTree" type="xint" value="10"/>
+<entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
+<entry key="nrModels" type="xint" value="100"/>
+<entry key="splitCriterion" type="xstring" value="InformationGain"/>
+<entry key="missingValueHandling" type="xstring" value="XGBoost"/>
+<entry key="useAverageSplitPoints" type="xboolean" value="true"/>
+<entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
+<entry key="fingerprintColumn" type="xstring" isnull="true" value=""/>
+<config key="columnFilterConfig">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="252"/>
+<entry key="0" type="xstring" value="bad"/>
+<entry key="1" type="xstring" value="casa"/>
+<entry key="2" type="xstring" value="alojamiento"/>
+<entry key="3" type="xstring" value="encanto"/>
+<entry key="4" type="xstring" value="difã­cil"/>
+<entry key="5" type="xstring" value="superar"/>
+<entry key="6" type="xstring" value="detall"/>
+<entry key="7" type="xstring" value="estã¡"/>
+<entry key="8" type="xstring" value="cuidado"/>
+<entry key="9" type="xstring" value="mã¡ximo"/>
+<entry key="10" type="xstring" value="habitacion"/>
+<entry key="11" type="xstring" value="zona"/>
+<entry key="12" type="xstring" value="comun"/>
+<entry key="13" type="xstring" value="localizaciã³n"/>
+<entry key="14" type="xstring" value="perfecta"/>
+<entry key="15" type="xstring" value="callejear"/>
+<entry key="16" type="xstring" value="granada"/>
+<entry key="17" type="xstring" value="desayuno"/>
+<entry key="18" type="xstring" value="ofrecen"/>
+<entry key="19" type="xstring" value="casero"/>
+<entry key="20" type="xstring" value="mã¡s"/>
+<entry key="21" type="xstring" value="delicioso"/>
+<entry key="22" type="xstring" value="person"/>
+<entry key="23" type="xstring" value="chica"/>
+<entry key="24" type="xstring" value="encantadora"/>
+<entry key="25" type="xstring" value="esmeran"/>
+<entry key="26" type="xstring" value="estancia"/>
+<entry key="27" type="xstring" value="inmejor"/>
+<entry key="28" type="xstring" value="ubicaciã³n"/>
+<entry key="29" type="xstring" value="ideal"/>
+<entry key="30" type="xstring" value="preciosa"/>
+<entry key="31" type="xstring" value="tranquila"/>
+<entry key="32" type="xstring" value="terraza"/>
+<entry key="33" type="xstring" value="cena"/>
+<entry key="34" type="xstring" value="familia"/>
+<entry key="35" type="xstring" value="agrad"/>
+<entry key="36" type="xstring" value="habitaciã³n"/>
+<entry key="37" type="xstring" value="amplia"/>
+<entry key="38" type="xstring" value="limpia"/>
+<entry key="39" type="xstring" value="experiencia"/>
+<entry key="40" type="xstring" value="ocasiã³n"/>
+<entry key="41" type="xstring" value="sã²lo"/>
+<entry key="42" type="xstring" value="noch"/>
+<entry key="43" type="xstring" value="paso"/>
+<entry key="44" type="xstring" value="prã³ximament"/>
+<entry key="45" type="xstring" value="seguro"/>
+<entry key="46" type="xstring" value="volveremo"/>
+<entry key="47" type="xstring" value="posada"/>
+<entry key="48" type="xstring" value="fuimo"/>
+<entry key="49" type="xstring" value="amiga"/>
+<entry key="50" type="xstring" value="find"/>
+<entry key="51" type="xstring" value="deciro"/>
+<entry key="52" type="xstring" value="pudimo"/>
+<entry key="53" type="xstring" value="elecciã³n"/>
+<entry key="54" type="xstring" value="sitio"/>
+<entry key="55" type="xstring" value="paz"/>
+<entry key="56" type="xstring" value="tranquilo"/>
+<entry key="57" type="xstring" value="necesario"/>
+<entry key="58" type="xstring" value="limpieza"/>
+<entry key="59" type="xstring" value="impec"/>
+<entry key="60" type="xstring" value="trato"/>
+<entry key="61" type="xstring" value="excelent"/>
+<entry key="62" type="xstring" value="regalado"/>
+<entry key="63" type="xstring" value="mis"/>
+<entry key="64" type="xstring" value="padr"/>
+<entry key="65" type="xstring" value="aquã­"/>
+<entry key="66" type="xstring" value="tambiã©nya"/>
+<entry key="67" type="xstring" value="parezca"/>
+<entry key="68" type="xstring" value="repetirã©"/>
+<entry key="69" type="xstring" value="dudar"/>
+<entry key="70" type="xstring" value="habã©i"/>
+<entry key="71" type="xstring" value="vaya"/>
+<entry key="72" type="xstring" value="sabor"/>
+<entry key="73" type="xstring" value="recuerdo"/>
+<entry key="74" type="xstring" value="bonita"/>
+<entry key="75" type="xstring" value="ciudad"/>
+<entry key="76" type="xstring" value="gracia"/>
+<entry key="77" type="xstring" value="estado"/>
+<entry key="78" type="xstring" value="atendido"/>
+<entry key="79" type="xstring" value="fenomen"/>
+<entry key="80" type="xstring" value="explicandono"/>
+<entry key="81" type="xstring" value="aconsejandono"/>
+<entry key="82" type="xstring" value="lugar"/>
+<entry key="83" type="xstring" value="curioso"/>
+<entry key="84" type="xstring" value="exquisito"/>
+<entry key="85" type="xstring" value="postr"/>
+<entry key="86" type="xstring" value="mermelada"/>
+<entry key="87" type="xstring" value="casera"/>
+<entry key="88" type="xstring" value="acojedor"/>
+<entry key="89" type="xstring" value="cã©ntrico"/>
+<entry key="90" type="xstring" value="amabl"/>
+<entry key="91" type="xstring" value="hotel"/>
+<entry key="92" type="xstring" value="cã³modo"/>
+<entry key="93" type="xstring" value="justo"/>
+<entry key="94" type="xstring" value="servicio"/>
+<entry key="95" type="xstring" value="suficient"/>
+<entry key="96" type="xstring" value="dormir"/>
+<entry key="97" type="xstring" value="visitar"/>
+<entry key="98" type="xstring" value="gustã³"/>
+<entry key="99" type="xstring" value="oã­r"/>
+<entry key="100" type="xstring" value="cã³mo"/>
+<entry key="101" type="xstring" value="encargado"/>
+<entry key="102" type="xstring" value="hablaba"/>
+<entry key="103" type="xstring" value="tã©rmino"/>
+<entry key="104" type="xstring" value="direcciã³n"/>
+<entry key="105" type="xstring" value="fumaban"/>
+<entry key="106" type="xstring" value="corta"/>
+<entry key="107" type="xstring" value="comodidad"/>
+<entry key="108" type="xstring" value="estimado"/>
+<entry key="109" type="xstring" value="huã©sp"/>
+<entry key="110" type="xstring" value="darl"/>
+<entry key="111" type="xstring" value="compartir"/>
+<entry key="112" type="xstring" value="foro"/>
+<entry key="113" type="xstring" value="positiva"/>
+<entry key="114" type="xstring" value="valoraciã³n"/>
+<entry key="115" type="xstring" value="comentario"/>
+<entry key="116" type="xstring" value="instalacion"/>
+<entry key="117" type="xstring" value="sentimo"/>
+<entry key="118" type="xstring" value="cubierto"/>
+<entry key="119" type="xstring" value="expectativa"/>
+<entry key="120" type="xstring" value="referent"/>
+<entry key="121" type="xstring" value="estuviera"/>
+<entry key="122" type="xstring" value="coincidiera"/>
+<entry key="123" type="xstring" value="cantidad"/>
+<entry key="124" type="xstring" value="client"/>
+<entry key="125" type="xstring" value="abriendo"/>
+<entry key="126" type="xstring" value="ã¡rea"/>
+<entry key="127" type="xstring" value="restaurant"/>
+<entry key="128" type="xstring" value="lã­nea"/>
+<entry key="129" type="xstring" value="adicional"/>
+<entry key="130" type="xstring" value="buffet"/>
+<entry key="131" type="xstring" value="funciã³n"/>
+<entry key="132" type="xstring" value="nãºmero"/>
+<entry key="133" type="xstring" value="ademã¡"/>
+<entry key="134" type="xstring" value="show"/>
+<entry key="135" type="xstring" value="cook"/>
+<entry key="136" type="xstring" value="seri"/>
+<entry key="137" type="xstring" value="producto"/>
+<entry key="138" type="xstring" value="cocinar"/>
+<entry key="139" type="xstring" value="marcha"/>
+<entry key="140" type="xstring" value="carn"/>
+<entry key="141" type="xstring" value="pescado"/>
+<entry key="142" type="xstring" value="verdura"/>
+<entry key="143" type="xstring" value="estã¡n"/>
+<entry key="144" type="xstring" value="mesa"/>
+<entry key="145" type="xstring" value="frã­as"/>
+<entry key="146" type="xstring" value="calient"/>
+<entry key="147" type="xstring" value="lindo"/>
+<entry key="148" type="xstring" value="alejado"/>
+<entry key="149" type="xstring" value="estimada"/>
+<entry key="150" type="xstring" value="quedamo"/>
+<entry key="151" type="xstring" value="apenado"/>
+<entry key="152" type="xstring" value="opiniã³n"/>
+<entry key="153" type="xstring" value="coincidiã³"/>
+<entry key="154" type="xstring" value="altã­sima"/>
+<entry key="155" type="xstring" value="ocupaciã³n"/>
+<entry key="156" type="xstring" value="concreto"/>
+<entry key="157" type="xstring" value="entrada"/>
+<entry key="158" type="xstring" value="salida"/>
+<entry key="159" type="xstring" value="vera"/>
+<entry key="160" type="xstring" value="lamentamo"/>
+<entry key="161" type="xstring" value="grand"/>
+<entry key="162" type="xstring" value="dimensionado"/>
+<entry key="163" type="xstring" value="comedor"/>
+<entry key="164" type="xstring" value="dotaciã³n"/>
+<entry key="165" type="xstring" value="concordancia"/>
+<entry key="166" type="xstring" value="tamaã±o"/>
+<entry key="167" type="xstring" value="esperamo"/>
+<entry key="168" type="xstring" value="ofrezca"/>
+<entry key="169" type="xstring" value="futura"/>
+<entry key="170" type="xstring" value="oportunidad"/>
+<entry key="171" type="xstring" value="podamo"/>
+<entry key="172" type="xstring" value="demostrarl"/>
+<entry key="173" type="xstring" value="atenciã³n"/>
+<entry key="174" type="xstring" value="calidad"/>
+<entry key="175" type="xstring" value="asã­"/>
+<entry key="176" type="xstring" value="atestiguan"/>
+<entry key="177" type="xstring" value="visitado"/>
+<entry key="178" type="xstring" value="atentament"/>
+<entry key="179" type="xstring" value="juan"/>
+<entry key="180" type="xstring" value="manuel"/>
+<entry key="181" type="xstring" value="lã³pez"/>
+<entry key="182" type="xstring" value="sercotel"/>
+<entry key="183" type="xstring" value="luna"/>
+<entry key="184" type="xstring" value="mayo"/>
+<entry key="185" type="xstring" value="2018-tres"/>
+<entry key="186" type="xstring" value="huã©sped"/>
+<entry key="187" type="xstring" value="leer"/>
+<entry key="188" type="xstring" value="reseã±a"/>
+<entry key="189" type="xstring" value="halaga"/>
+<entry key="190" type="xstring" value="motiva"/>
+<entry key="191" type="xstring" value="puesto"/>
+<entry key="192" type="xstring" value="vocaciã³n"/>
+<entry key="193" type="xstring" value="sentir"/>
+<entry key="194" type="xstring" value="intentando"/>
+<entry key="195" type="xstring" value="solventar"/>
+<entry key="196" type="xstring" value="medida"/>
+<entry key="197" type="xstring" value="posibilidad"/>
+<entry key="198" type="xstring" value="aspecto"/>
+<entry key="199" type="xstring" value="planteen"/>
+<entry key="200" type="xstring" value="nombr"/>
+<entry key="201" type="xstring" value="equipo"/>
+<entry key="202" type="xstring" value="agradec"/>
+<entry key="203" type="xstring" value="expres"/>
+<entry key="204" type="xstring" value="satisfacciã³n"/>
+<entry key="205" type="xstring" value="volver"/>
+<entry key="206" type="xstring" value="verla"/>
+<entry key="207" type="xstring" value="opciã³n"/>
+<entry key="208" type="xstring" value="congratula"/>
+<entry key="209" type="xstring" value="general"/>
+<entry key="210" type="xstring" value="destacando"/>
+<entry key="211" type="xstring" value="libr"/>
+<entry key="212" type="xstring" value="trabajamo"/>
+<entry key="213" type="xstring" value="mejora"/>
+<entry key="214" type="xstring" value="continua"/>
+<entry key="215" type="xstring" value="opinion"/>
+<entry key="216" type="xstring" value="poder"/>
+<entry key="217" type="xstring" value="verlo"/>
+<entry key="218" type="xstring" value="espectacular"/>
+<entry key="219" type="xstring" value="gastro"/>
+<entry key="220" type="xstring" value="bar"/>
+<entry key="221" type="xstring" value="clienta"/>
+<entry key="222" type="xstring" value="good"/>
+<entry key="223" type="xstring" value="contrapunto"/>
+<entry key="224" type="xstring" value="sensacion"/>
+<entry key="225" type="xstring" value="palacio"/>
+<entry key="226" type="xstring" value="buenisimo"/>
+<entry key="227" type="xstring" value="centro"/>
+<entry key="228" type="xstring" value="room"/>
+<entry key="229" type="xstring" value="mate"/>
+<entry key="230" type="xstring" value="perfecto"/>
+<entry key="231" type="xstring" value="carmen"/>
+<entry key="232" type="xstring" value="tu"/>
+<entry key="233" type="xstring" value="salvador"/>
+<entry key="234" type="xstring" value="capitel"/>
+<entry key="235" type="xstring" value="enamorars"/>
+<entry key="236" type="xstring" value="vã­ctor"/>
+<entry key="237" type="xstring" value="nube"/>
+<entry key="238" type="xstring" value="claro"/>
+<entry key="239" type="xstring" value="alberto"/>
+<entry key="240" type="xstring" value="situado"/>
+<entry key="241" type="xstring" value="edificio"/>
+<entry key="242" type="xstring" value="siglo"/>
+<entry key="243" type="xstring" value="xvi"/>
+<entry key="244" type="xstring" value="patio"/>
+<entry key="245" type="xstring" value="salon"/>
+<entry key="246" type="xstring" value="descansar"/>
+<entry key="247" type="xstring" value="pequeã±a"/>
+<entry key="248" type="xstring" value="ambiant"/>
+<entry key="249" type="xstring" value="precio"/>
+<entry key="250" type="xstring" value="normal"/>
+<entry key="251" type="xstring" value="pintoresco"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.ext.textprocessing.data.DocumentValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
+<entry key="nrHilitePatterns" type="xint" value="-1"/>
+<entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
+<entry key="rowSamplingMode" type="xstring" value="Random"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="746"/>
+<entry key="y-coordinate" type="xint" value="939"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory"/>
+<entry key="node-name" type="xstring" value="Random Forest Learner"/>
+<entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711281714"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Random Forest Learner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 912, Cols: 4500"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 4493, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
+<entry key="port_object_summary" type="xstring" value="100 classifiers on 4493 attributes"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="referenced_output"/>
+<entry key="outport" type="xint" value="3"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" value="filestore"/>
+<entry key="file_store_id" type="xstring" value="f34dc655-369c-405b-b486-6621cddfbb23"/>
+</config>
+</config>
