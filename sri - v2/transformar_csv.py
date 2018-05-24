@@ -2,8 +2,8 @@ import pandas as pd
 
 # We use the Pandas library to read the contents of the scraped data
 # obtained by scrapy
-df = pd.read_csv('scrapyData.csv', encoding='utf-8')
-
+df = pd.read_csv('scrapyData_33k.csv', encoding='utf-8')
+import ipdb; ipdb.set_trace()
 # Now we remove duplicate rows (reviews)
 df.drop_duplicates(inplace=True)
 
@@ -37,4 +37,4 @@ df = df[['hotel', 'full_content', 'true_category']]
 # Print a histogram of sentiment values
 print(df['true_category'].value_counts())
 # Write the data into a CSV file
-df.to_csv('itemsHotel.csv', header=False, index=False, encoding='utf-8')
+df.to_csv('itemsHotel.csv', header=True, index=False, encoding='utf-8')
