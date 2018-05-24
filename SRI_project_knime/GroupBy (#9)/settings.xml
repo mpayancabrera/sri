@@ -50,16 +50,23 @@
 <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
 <config key="aggregationColumn">
 <config key="columnNames">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Document"/>
 </config>
 <config key="columnTypes">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.ext.textprocessing.data.filestore.DocumentBufferedFileStoreCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
 </config>
 <config key="aggregationMethod">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Count"/>
 </config>
 <config key="inclMissingVals">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xboolean" value="true"/>
 </config>
 </config>
 <config key="aggregationOperatorSettings"/>
@@ -116,12 +123,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 12978, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 12978, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d7f559a8-00b7-4d1a-a281-70a9456d8ce8"/>
+<entry key="file_store_id" type="xstring" value="e9c67a0c-5907-47ef-b19c-30a4a28efb91"/>
 </config>
 </config>

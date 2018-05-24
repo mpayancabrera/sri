@@ -10,12 +10,12 @@
 <config key="positiveClass">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="good"/>
+<entry key="StringCell" type="xstring" value="NEG"/>
 </config>
 </config>
 <config key="curves">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="P (Document class=good)"/>
+<entry key="0" type="xstring" value="P (Document class=POS)"/>
 </config>
 <entry key="maxPoints" type="xint" value="2000"/>
 </config>
@@ -34,11 +34,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Sort column 'P (Document class=good) ' does not exist"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.viz.roc.ROCNodeFactory"/>
 <entry key="node-name" type="xstring" value="ROC Curve"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -51,16 +47,19 @@
 <entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="ROC Curve"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="533afa82-d4ab-42eb-b8fa-221268643569"/>
 </config>
 </config>
