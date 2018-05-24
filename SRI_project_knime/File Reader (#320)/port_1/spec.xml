@@ -28,7 +28,7 @@
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Eurostars Gran Vía"/>
+<entry key="StringCell" type="xstring" value="Eurostars Gran VÃ­a"/>
 </config>
 </config>
 <config key="3">
@@ -88,7 +88,7 @@
 <config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Vincci Albayzín"/>
+<entry key="StringCell" type="xstring" value="Vincci AlbayzÃ­n"/>
 </config>
 </config>
 <config key="13">
@@ -124,7 +124,7 @@
 <config key="18">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Marquis Hotels Issabel´s"/>
+<entry key="StringCell" type="xstring" value="Marquis Hotels IssabelÂ´s"/>
 </config>
 </config>
 <config key="19">
@@ -136,7 +136,7 @@
 <config key="20">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Hotel Boutique Párraga Siete"/>
+<entry key="StringCell" type="xstring" value="Hotel Boutique PÃ¡rraga Siete"/>
 </config>
 </config>
 <config key="21">
@@ -160,7 +160,7 @@
 <config key="24">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Ohtels San Antón"/>
+<entry key="StringCell" type="xstring" value="Ohtels San AntÃ³n"/>
 </config>
 </config>
 <config key="25">
@@ -172,7 +172,7 @@
 <config key="26">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Hotel Andalucía Center"/>
+<entry key="StringCell" type="xstring" value="Hotel AndalucÃ­a Center"/>
 </config>
 </config>
 <config key="27">

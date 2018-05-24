@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="DataURL" type="xstring" value="file:/home/manuel/Documentos/Master/SRI/sri-master/sri/sri%20-%20v2/itemsHotel_final.csv"/>
+<entry key="DataURL" type="xstring" value="file:/D:/Manuel/Documents/Master/SRI/practica/sri/sri%20-%20v2/itemsHotel_final.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
 <entry key="pattern" type="xstring" value="%%00010"/>
@@ -113,11 +113,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051350"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="File Reader"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -133,6 +133,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="790a7e4b-2a2b-45eb-a3e4-5cb2133fbe4e"/>
+<entry key="file_store_id" type="xstring" value="3d965de4-e4f1-4617-af49-f00549caa2cc"/>
 </config>
 </config>

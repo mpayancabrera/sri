@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="itemsHotel.csv"/>
+<entry key="number_columns" type="xint" value="3"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="hotel"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="full_content"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="true_category"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="7"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="good"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="bad"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Excelente. Personal súper atento y amable  nos trataron súper bien . La habitación elegida era superior y daba al patio . Todo un Lujo poder asomarse y ver esa belleza . Muy limpio y cuidando los detalles . No puedo decir nada negativo . Volveremos"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Magnifico Hotel . Solo tengo buenas palabras para este alojamiento. Situación: perfecta. El hotel al completo está muy bien cuidado y limpio. Las habitaciones impecables ademas de bonitas y acogedoras. El entorno inmejorable. Nos quedamos en una habitación del patio y fue un acierto. Excelente servicio desde recepcionistas hasta camareras. Nada mas llegar dejamos el coche en la puerta y nos desentendimos por completo de todo. Nos subieron las maletas y nos llevaron el coche al parking. Tan solo tenia q avisar 10 minutos antes y nos encontrábamos el coche en la puerta del hotel. En cuanto al desayuno perfecto. Muy completo y muy bien atendido por el personal. La comida caliente te la hacían al momento (nada de bandejas con la comida hecha desde hace tiempo). El café igual de maquina y recién hecho. Repito seguro."/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Exquisito alojamiento con un personal magnífico.. Fabulosa remodelacion del convento. Hemos pasado un fantastico fin de semana en familia. Tambien merece señalar al servicio y la gastronomia del hotel. Respecto a las habitaciones: impecables en cuanto a diseño equipamiento vistas y estado de conservacion. El patio central es una obra de arte. Hemos realizado la visita en grupo a la Alhambra y desde el hotel lo organizaron todo con la empresa granavision (fantastica guia Angela muy recomendable)"/>
+</config>
+</config>
+<config key="5">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Fantastico. Estuve el primer fin de semana de Febrero y este Hotel es una maravilla está my bien situado es muy bonito y el personal es muy atento el desayuno fantástico siempre que vaya a Granada iré a este Hotel."/>
+</config>
+</config>
+<config key="6">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Buen hotel. Es un hotel absolutamente recomendable para alojarse en Granada. Muy bien ubicado  cerca del centro se llega dando un paseo muy agradable. Cómodo y percioso. A nosotros nos gustó el desayuno y ... ¡Seguro que volveremos!"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+</config>

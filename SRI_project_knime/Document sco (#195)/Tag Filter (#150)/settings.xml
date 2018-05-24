@@ -11,6 +11,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Document Column" type="xstring" value="Document"/>
+<config key="Preprocess Unmodifiable_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
 <config key="Replace Document_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,16 +26,20 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="New Document Column Name" type="xstring" value="Orig Document"/>
-<config key="Preprocess Unmodifiable_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
 <config key="Strict_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Strict" type="xboolean" value="false"/>
+<config key="Tags To Filter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="Tags To Filter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="MONEY"/>
+<entry key="1" type="xstring" value="PERSON"/>
+</config>
 <config key="Include Selected_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -41,15 +50,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Tag Type" type="xstring" value="NE"/>
-<config key="Tags To Filter_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="Tags To Filter">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="MONEY"/>
-<entry key="1" type="xstring" value="PERSON"/>
-</config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -78,6 +78,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="8c7ac9c3-b5a2-4090-8026-5b88847d7cef"/>
+<entry key="file_store_id" type="xstring" value="3efb7faa-84a8-428d-8324-28e3569a3a88"/>
 </config>
 </config>

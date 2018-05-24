@@ -43,7 +43,7 @@
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Java Snippet (simple)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -59,6 +59,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5b256fc6-95ff-41d9-a965-1d059437a236"/>
+<entry key="file_store_id" type="xstring" value="52ec6f44-abe4-4850-ae1e-5fa2f0126754"/>
 </config>
 </config>

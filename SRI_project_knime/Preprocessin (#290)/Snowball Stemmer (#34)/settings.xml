@@ -11,6 +11,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Document Column" type="xstring" value="Preprocessed Document"/>
+<config key="Preprocess Unmodifiable_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
 <config key="Replace Document_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,11 +26,6 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="New Document Column Name" type="xstring" value="Preprocessed Document"/>
-<config key="Preprocess Unmodifiable_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
 <config key="Stemmer Name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -59,6 +59,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="4bd28300-3697-4ff7-ae06-4ad55956b249"/>
+<entry key="file_store_id" type="xstring" value="4350b957-dcd1-4c2f-84ea-432de47bc5bf"/>
 </config>
 </config>
